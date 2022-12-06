@@ -1,0 +1,6 @@
+*.out
+prog
+lex.yy.c
+lex.yy.cc
+autocomptest.c++
+simple
