@@ -6,7 +6,7 @@
 
 struct Contador {
     std::string desc;
-    int valor = 0;
+    unsigned int valor = 0;
 };
 
 std::vector<Contador> contadores(100);
