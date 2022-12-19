@@ -34,7 +34,7 @@ PALABRA_PL_OUTLOOK  ({ALFNUM}|"-"|"_")+
 /* --- Partes locales */
 
 PL_GMAIL        {LETRA}((".")?{ALFNUM_PALABRA})*
-PL_OUTLOOK      {LETRA}((".")?{PALABRA_PL_OUTLOOK})*
+PL_OUTLOOK      {LETRA}((".")?{PALABRA_PL_OUTLOOK})*{ALFNUM}
 PL_YAHOO        {LETRA}(("."|"_")?{ALFNUM_PALABRA})*
 PL_PROTON       {ALFNUM}(("."|"_"|"-")?{ALFNUM_PALABRA})*
 PL_UNKNOWN      {PL_PROTON}
