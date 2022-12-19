@@ -28,7 +28,7 @@ LETRA               ({MAY}|{MIN})
 PALABRA             {LETRA}+
 ALFNUM              ({MIN}|{MAY}|{DIGITO})
 ALFNUM_PALABRA      {ALFNUM}+
-DOMINIO             ({ALFNUM}|{DIGITO}){2,}
+DOMINIO             ({MIN}){2,}
 PALABRA_PL_OUTLOOK  ({ALFNUM}|"-"|"_")+
 
 /* --- Partes locales */
