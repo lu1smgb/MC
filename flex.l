@@ -36,16 +36,16 @@ PALABRA_PL_OUTLOOK  ({ALFNUM}|"-"|"_")+
 PL_GMAIL        {LETRA}((".")?{ALFNUM_PALABRA})*
 PL_OUTLOOK      {LETRA}((".")?{PALABRA_PL_OUTLOOK})*
 PL_YAHOO        {LETRA}(("."|"_")?{ALFNUM_PALABRA})*
-PL_PROTON       {ALFNUM}(("."|"_"|"-")?({ALFNUM_PALABRA}))*
+PL_PROTON       {ALFNUM}(("."|"_"|"-")?{ALFNUM_PALABRA})*
 PL_UNKNOWN      {PL_PROTON}
 PL_UGR          ({ALFNUM}){6,8}
 
 /* --- Organizaciones */
 ORG_GMAIL       "gmail.com"
-ORG_OUTLOOK     (("outlook."("com"|"es"))|("hotmail.com"))
+ORG_OUTLOOK     (("outlook."("com"|"es"))|"hotmail.com")
 ORG_YAHOO       "yahoo.com"
 ORG_PROTON      "proton"(".me"|"mail.com")
-ORG_UNKNOWN     {PALABRA_MIN}("."{PALABRA_MIN})*.{DOMINIO}
+ORG_UNKNOWN     {PALABRA_MIN}("."{PALABRA_MIN})*"."{DOMINIO}
 ORG_DOC_UGR     "ugr.es"
 ORG_EST_UGR     "correo."{ORG_DOC_UGR}
 ORG_GO_UGR      "go."{ORG_DOC_UGR}
