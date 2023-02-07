@@ -39,3 +39,8 @@ flex++ flex.l
 g++ lex.yy.cc -lfl -o prog
 prog <fichero_de_texto>
 ```
+
+### *Yo tengo que hacer un programa en FLEX ¿Puedo usar este programa como inspiración para hacer el mío?*
+
+Sin problema.
+Además, esta práctica tuvo una calificación perfecta.
