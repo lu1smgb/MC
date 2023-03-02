@@ -27,12 +27,13 @@ Donde `fichero_de_texto` es el fichero que contiene las direcciones de correo el
 
 #### Windows
 
+*Puedes seguir los pasos de Linux dentro de WSL (Windows Subsystem for Linux) o puedes instalarlo todo directamente en Windows como sigue:*
+
 Descarga Flex [aquí](https://gnuwin32.sourceforge.net/packages/flex.htm), e instala un compilador de C++ para Windows como MSYS2 o MINGW si no tienes uno.
 
-Si tienes un intérprete bash en tu sistema, ejecuta `ejecutar.sh`, como lo harías
-en Linux.
+Si tienes un intérprete bash en tu sistema como Git Bash, ejecuta `ejecutar.sh`, como lo harías en Linux.
 
-Si no tienes un intérprete bash en tu sistema, ejecuta los comandos que hay en el fichero `ejecutar.sh` uno por uno *(intentaré hacer un script para que sea más cómodo)*.
+Si no tienes un intérprete bash en tu sistema, ejecuta los comandos que hay en el fichero `ejecutar.sh` uno por uno:
 
 ```bash
 flex++ flex.l
@@ -42,5 +43,5 @@ prog <fichero_de_texto>
 
 ### *Yo tengo que hacer un programa en FLEX ¿Puedo usar este programa como inspiración para hacer el mío?*
 
-Sin problema.
-Además, esta práctica tuvo una calificación perfecta.
+Sin problema
+Además, esta práctica tuvo una **calificación perfecta** 💯
