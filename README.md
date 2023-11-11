@@ -1,4 +1,4 @@
-# MC-FLEX
+# MC
 
 ## Analizador léxico construido en FLEX y C++
 
